@@ -1,8 +1,21 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	n_cicli_man : INT := 10; (*COSTANTE: numero di cicli che eseguiamo prima di andare in manutenzione*)
+	t1s : TIME := T#10s; (*COSTANTE: tempo 1 secondo*)
+	tFotocamera : TIME := T#10s; (*COSTANTE: tempo che la fotocamera impiega per leggere i dati*)
+	n_kit : INT := 10; (*COSTANTE: valore degli item necessari nel kit*)
+	CONVon : BOOL; (*MOTORE: motore per far muovere i pezzi*)
+	START : BOOL; (*PULSANTE: avvio del ciclo di lavoro*)
+	GO : BOOL; (*PULSANTE: pulsante che ravvia il sistema dopo il bloccaggio alla fotocamera*)
+	MR : BOOL; (*PULSANTE: reset della manutenzione*)
+	RESET_COUNTER : BOOL; (*PULSANTE: serve per resettare il conteggio dei pezzi buoni*)
+	ON : BOOL; (*STATO: identifica che il coclo è attivo*)
+	MUOVI : BOOL; (*STATO: identifica lo stato del nastro trasportatore attivo*)
+	RISULTATI : BOOL; (*STATO: indichiamo che stiamo conforntando i dati della fotocamera*)
+	NON_BUONO : BOOL; (*STATO: quando i pezzi contati sono diversi da n_kit*)
+	ATTESA_UTENTE : BOOL; (*STATO: quando si aspetta l'intervento dell'operatore*)
+	BUONO : BOOL; (*STATO: quanto i pezzi contati sono pari a n_kit*)
+	MAN : BOOL; (*STATO: stato di manutenzione*)
+	FOTOCAMERA : BOOL; (*STATO: stato in cui la fotocamera sta leggendo i dati*)
+	n_items : INT; (*VARIABILE: numero di oggetti nella vaschetta*)
+	n_corrette : INT; (*VARIABILE: numero di volte che la fotocamera ha letto n_kit  oggetti*)
 END_VAR

@@ -1,0 +1,16 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=157 Type=0 Scope=0 Force=0 Index=11 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           ATTESA_UTENTE                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                   BUONO                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                              FOTOCAMERA                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      GO                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      MR                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               NON_BUONO                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      ON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                   START                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                              n_corrette                                      INT    0 "                                                               2"    0    3    1   10    1    0         
+                                 n_items                                      INT    0 "                                                              10"    0    3    1   10    1    0         
+                                     t1s                                     TIME    0 "                                                           T#01s"    0   12    1    1    1    0         
+                             n_cicli_man                                      INT    0 "                                                              10"    0    3    1   10    1    0         
+                             tFotocamera                                     TIME    0 "                                                         T#500ms"    0   12    1    1    1    0         
