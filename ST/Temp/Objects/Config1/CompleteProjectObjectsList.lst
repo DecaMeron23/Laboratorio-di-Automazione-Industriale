@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<Objects>
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133604121079932295" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133604120676096829"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133604120676147136"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133604120698941438" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133604120693731437" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133604120693691445"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133604120693721427"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133604120693731437"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133604120695431511" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133604120695391555"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133604120695411519"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133604120695421503"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133604120697184109" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133604120697144075"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133604120697163955"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133604120697173951"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133604120698901342" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133604120698871100"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133604120698881102"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133604120698891107"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\IEC.prg"
+    LogicalPath="Cosberg"
+    Type="Program"
+    LastWriteTime="133604261008484391" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Cyclic.st"
+    LogicalPath="Cosberg.Cyclic.st"
+    Type="File"
+    LastWriteTime="133604261998305467"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Init.st"
+    LogicalPath="Cosberg.Init.st"
+    Type="File"
+    LastWriteTime="133604120887756272"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Exit.st"
+    LogicalPath="Cosberg.Exit.st"
+    Type="File"
+    LastWriteTime="133604120887766224"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Types.typ"
+    LogicalPath="Cosberg.Types.typ"
+    Type="File"
+    LastWriteTime="133604120887776236"
+    Private="true" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Variables.var"
+    LogicalPath="Cosberg.Variables.var"
+    Type="File"
+    LastWriteTime="133604261285036891"
+    Private="true" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\LocalFunctions.fun"
+    LogicalPath="Cosberg.LocalFunctions.fun"
+    Type="File"
+    LastWriteTime="133604215299742633"
+    Private="true" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\GESTIONE_STAZIONE.st"
+    LogicalPath="Cosberg.GESTIONE_STAZIONE.st"
+    Type="File"
+    LastWriteTime="133604208019237322"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133604120735492679" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133604257465573697"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133604142288632687"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Cpu.pkg"
+    LogicalPath="Config1.X20CP1584"
+    Type="Cpu"
+    LastWriteTime="133604120704363736" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Cpu.sw"
+    LogicalPath="Config1.X20CP1584.Cpu.sw"
+    Type="File"
+    LastWriteTime="133604121080233478"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Cpu.per"
+    LogicalPath="Config1.X20CP1584.Cpu.per"
+    Type="File"
+    LastWriteTime="133604120702532805"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\IoMap.iom"
+    LogicalPath="Config1.X20CP1584.IoMap.iom"
+    Type="File"
+    LastWriteTime="133604120702613137"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\PvMap.vvm"
+    LogicalPath="Config1.X20CP1584.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133604120702758200"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.Connectivity"
+    Type="Package"
+    LastWriteTime="133604120703095814" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1584.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133604120703063721" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP1584.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133604120703085820" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.TextSystem"
+    Type="Package"
+    LastWriteTime="133604120703125810" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.UnitSystem"
+    Type="Package"
+    LastWriteTime="133604120703249128" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133604120703639965" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133604120703408361" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133604120703388379"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133604120703398398"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133604120703577417" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133604120703480762" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133604120703460769" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133604120703480762" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133604120703533183" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133604120703520768" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133604120703547349" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133604120703567415" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133604120703600197" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133604120703639965" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1584.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133604120703625011"
+    Private="false" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappControl"
+    Type="Package"
+    LastWriteTime="133604120703673493" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappMotion"
+    Type="Package"
+    LastWriteTime="133604120703705665" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappServices"
+    Type="Package"
+    LastWriteTime="133604120703729549" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappSafety\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappSafety"
+    Type="Package"
+    LastWriteTime="133604120703810003" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133604120703787323" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133604120703797385" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappView"
+    Type="Package"
+    LastWriteTime="133604120703935655" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappVision\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappVision"
+    Type="Package"
+    LastWriteTime="133604120704073355" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1584.mappCockpit"
+    Type="Package"
+    LastWriteTime="133604120704233417" />
+  <Object
+    Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133604142288912790"
+    Private="false" />
+</Objects>

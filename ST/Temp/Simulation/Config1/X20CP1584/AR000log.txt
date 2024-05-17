@@ -1,0 +1,21 @@
+Fri May 17 15:22:28 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri May 17 15:22:28 2024
+No ARsim registration found!
+
+Fri May 17 15:22:28 2024
+InstanceName: 000000d67cf4ad80
+
+Fri May 17 15:22:28 2024
+WorkingDirectory: C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Temp\Simulation\Config1\X20CP1584\
+
+Fri May 17 15:22:28 2024
+COMMAND_COLDSTART
+
+Fri May 17 15:22:31 2024
+Version: B4.93
+
+Fri May 17 15:30:16 2024
+COMMAND_TERMINATE
+
