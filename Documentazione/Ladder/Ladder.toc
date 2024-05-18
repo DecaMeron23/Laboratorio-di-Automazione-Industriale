@@ -4,4 +4,4 @@
 \contentsline {subsection}{\numberline {2.2}Stati del sistema}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Valori e Costanti}{3}{}%
 \contentsline {section}{\numberline {3}Come abbiamo lavorato}{3}{}%
-\contentsline {section}{\numberline {4}Programama Ladder}{4}{}%
+\contentsline {section}{\numberline {4}Programma Ladder}{4}{}%

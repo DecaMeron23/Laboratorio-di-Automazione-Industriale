@@ -2,13 +2,7 @@
 (* function block per la gestione delle singole stazioni *)
 FUNCTION_BLOCK GESTIONE_STAZIONE
 	
-	// Se l'azione non è attiva
-	IF NOT AZIONE THEN
-		// inizzializzazione del temporizzatore
-		TEMPORIZZATORE := T#0s;
-		// attivazione azione
-		AZIONE:= TRUE;
-	END_IF;
+	AZIONE:= TRUE;
 	
 	
 	CASE TIPO OF
@@ -31,6 +25,9 @@ FUNCTION_BLOCK GESTIONE_STAZIONE
 	// gestione azioni se si verifica l'evento
 	IF EVENTO THEN
 		AZIONE:= FALSE;
+		TEMPORIZZATORE:= T#0s;
+		TRIGGER:= FALSE;
+		EVENTO := FALSE;
 	END_IF;
 	
 END_FUNCTION_BLOCK

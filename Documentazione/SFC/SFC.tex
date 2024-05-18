@@ -1,8 +1,10 @@
 \documentclass{article}
 
-\title{Laboratorio - esercizio con ladder}
-\date{}
+\title{Laboratorio - Esercizio con SFC}
+\author{Benedetta Vitale ed Emilio Meroni}
+\date{12 maggio 2024}
 
+\usepackage[italian]{babel}  % Lingua
 \usepackage{tabularx} %per le tabelle
 \usepackage{booktabs} %per le linee
 \usepackage{graphicx} %per le immagini
@@ -10,6 +12,8 @@
 \usepackage{amsmath} %uso simboli matematici
 
 \begin{document}
+
+\maketitle  % Comando per generare il titolo
 
 \tableofcontents
 
@@ -20,12 +24,12 @@
     \label{fig:schematico}
 \end{figure}
 \section{Itroduzione}
-Il sistema per cui abbiamo fatto lo schema il controllo tramite \textit{SFC} gestisce il carico e lo scarico delle bottiglie, su dei pallet [figura: \ref{fig:schematico}].
+Il sistema per cui abbiamo fatto lo schema di controllo tramite \textit{SFC}, gestisce il carico e lo scarico delle bottiglie su dei pallet [figura: \ref{fig:schematico}].
 \\
 
-Si hanno sue zone principali (carico e scarico), collegate da un nastro trasportatore, di cui quella a destra serve per caricare automaticamente le bottiglie (10 bottiglie) su un pallet, le quali vengono contate da una fotocellula. La zona a sinistra serve per lo scarico del pallet, da parte di un operatore.
+Si hanno due zone principali (carico e scarico), collegate da un nastro trasportatore. Quella a destra, serve per caricare automaticamente 10 bottiglie su un pallet, le quali vengono contate da una fotocellula. Quella a sinistra, invece, serve per lo scarico del pallet, da parte di un operatore.
 
-Al momento che il pallet è scarico, rilevato da un sensore, e l'operatore clicca il pulsante START il pallet torna verso la zona di carico, ricominciando il ciclo di lavoro.
+Al momento che il pallet è scarico, rilevato da un sensore, e l'operatore clicca il pulsante START, il pallet torna verso la zona di carico ricominciando il ciclo di lavoro.
 
 \section{Definizione Variabili}
 In questa sezione definiamo e spieghiamo le diverse variabili che abbiamo utilizzato, in particolare le raggruppiamo per:
@@ -40,7 +44,7 @@ Di seguito presentiamo la tabella [\ref{tab:input_output}] contenente tutti gli 
 \begin{center}
     \begin{tabular}{l l l l }
         \toprule
-        \textbf{Nome} & \textbf{tipologia} & \textbf{Descrizione}                           \\
+        \textbf{Nome} & \textbf{Tipologia} & \textbf{Descrizione}                           \\
         \midrule
         \midrule
         RM            & Output             & Motore nastro trasportatore verso destra       \\
@@ -57,7 +61,7 @@ Di seguito presentiamo la tabella [\ref{tab:input_output}] contenente tutti gli 
         \midrule
         LS            & Input              & Sensore di fine corsa sinistro                 \\
         \midrule
-        ES            & Input              & Sensore che rileva se il pallet è vuoto( ES=1) \\
+        ES            & Input              & Sensore che rileva se il pallet è vuoto (ES=1) \\
         \midrule
         start         & Input              & Pulsante per avviare il nastro trasportatore   \\
                       &                    & verso destra                                   \\
@@ -81,7 +85,7 @@ Di seguito presentiamo la tabella [\ref{tab:input_output}] contenente tutti gli 
         attesaBottiglia & Stato nel quale siamo in attesa del passaggio di una   \\
                         & bottiglia                                              \\
         \midrule
-        conta           & Incremento di uno il contatore delle bottiglie         \\
+        conta           & Incremento di 1 il contatore delle bottiglie         \\
         \midrule
         attesaSicurezza & Stato che garantisce i 5 secondi, per motivi di        \\
                         & sicurezza                                              \\
@@ -116,21 +120,21 @@ Di seguito presentiamo la tabella [\ref{tab:input_output}] contenente tutti gli 
 
 
 \section{Assunzioni}
-Abbiamo deciso, di creare uno stato iniziale, chiamato \textit{inizio} dove si entra solo una volta, all'accesione della macchina. Serve per assicurarsi che il pallet sia a destra all'inizio, infatti la transizione viene regolata da \textit{RS}(fotocellula presenza pallet destra); in uscita dallo stato \textit{inizio} abbiamo aggiunto il reset delle variabili: \textit{x} e \textit{botPerMan}.  
+Abbiamo deciso di creare uno stato iniziale, chiamato \textit{inizio}, dove si entra solo una volta, all'accesione della macchina. Serve per assicurarsi che il pallet sia a destra inizialmente, infatti la transizione viene regolata da \textit{RS}(fotocellula presenza pallet destra); in uscita dallo stato \textit{inizio} abbiamo aggiunto il reset delle variabili: \textit{x} e \textit{botPerMan}.  
 \\
 
-Dato che nel testo non era specificato, la manutenzione abbiamo decisa di inserirla dopo/durante il conteggio delle bottiglie; quindi il blocco del pulsante \textit{start} viene fatto in modo implicito.
+Dato che, nel testo non era specificato quando inserire la manutenzione, abbiamo deciso di inserirla durante il conteggio delle bottiglie; quindi il blocco del pulsante \textit{start} viene fatto in modo implicito.
 
 
 \section{Problematiche}
 Durante lo svolgimento abbiamo affrontato qualche problematica, in particolare:
 \begin{enumerate}
-    \item nella transizione "\textit{attesaSicurezza.t $>=$ T\#5s}, ci dava errore dicendo che \textit{attesaSicurezza} doveva essere dichiarata come variabile, ma è uno stato. Di conseguenza abbiamo capito che il problema era che lo stato non aveva nessuna azione da eseguire; perciò abbiamo dovuto inserire la variabile: "\textit{nonFaNulla}", che non fa nulla.
-    \item Durante il debugging abbiamo notato che se $x = 10$ è nello stesso momento $botPerMan = 25$, il programma su \textit{attesaSicurezza} e non in \textit{manutenzione}, perciò abbiamo inserito nella transizione: "AND botPerMan$<$25" (che abbiamo anche applicato alla transizione che da \textit{conta} porta in \textit{attesaBottiglia})
+    \item Nella transizione \textit{"attesaSicurezza.t $>=$ T\#5s"}, ci dava un errore, dicendo che \textit{attesaSicurezza} doveva essere dichiarata come variabile, ma è uno stato. Di conseguenza abbiamo capito che il problema era che: lo stato non aveva nessuna azione da eseguire; perciò abbiamo dovuto inserire la variabile: "\textit{nonFaNulla}", che non fa nulla.
+    \item Durante il debugging abbiamo notato che se $x = 10$ e, nello stesso momento $botPerMan = 25$, il programma andava in \textit{attesaSicurezza} e non in \textit{manutenzione}; perciò abbiamo inserito nella transizione anche: "AND botPerMan$<$25" (che abbiamo anche applicato alla transizione che da \textit{conta} porta in \textit{attesaBottiglia}).
     \item Infine, abbiamo separato le 2 casistiche in cui siamo in manutenzione:
           \begin{itemize}
               \item $x < 10$: in questo caso, quando la manutenzione finisce (a seguito della pressione di \textit{MAIR}), ritorniamo ad attendere una nuova bottiglia.
-              \item $x \geq 10$ (che saranno ogni n cicli, dove n è multiplo di 6):  essendo già dieci le bottiglie, finita la manutenzione, andremo in \textit{attesaSicurezza}.
+              \item $x \geq 10$ (che saranno ogni n cicli, dove n è multiplo di 6):  in questo caso, essendo già dieci le bottiglie, finita la manutenzione, andremo in \textit{attesaSicurezza}.
           \end{itemize}
 \end{enumerate}
 

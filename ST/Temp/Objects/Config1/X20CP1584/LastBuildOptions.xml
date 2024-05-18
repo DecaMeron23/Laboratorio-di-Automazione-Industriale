@@ -2,23 +2,23 @@
 <?AutomationStudio FileVersion="4.9" WorkingVersion="4.12"?>
 <RuleSetOptions UsesUTCTime="True">
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*&quot; -c &quot;Config1&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;X20CP1584&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\sysconf.br&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP1584&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\asfw.br&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP1584&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ashwd.br&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\iomap.iom" LastWriteTime="2024-05-17 09:34:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\IoMap.iom&quot;  -arconfig -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;X20CP1584&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
@@ -29,9 +29,9 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\iomap.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\iomap.iom" LastWriteTime="2024-05-17 09:34:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\pvmap.vvm" LastWriteTime="2024-05-17 09:34:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-17 13:22:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-05-18 08:23:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\cpu.sw" LastWriteTime="2024-05-17 09:35:08" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\channelconfiguration.xml" LastWriteTime="2024-05-17 13:27:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\channelconfiguration.xml" LastWriteTime="2024-05-17 14:12:26" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\iomap.br&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.X20CP1584&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.imx">
@@ -39,11 +39,11 @@
     <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\TCData\TCData.imx&quot; -c &quot;C:\Program Files\AS412\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;C:\Program Files\AS\System\B0493&quot; &quot;C:\Program Files\AS412\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.s18d">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.imx" LastWriteTime="2024-05-17 13:27:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.imx" LastWriteTime="2024-05-17 14:12:24" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\TCData\TCData.s18d&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.s18d" LastWriteTime="2024-05-17 13:27:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata\tcdata.s18d" LastWriteTime="2024-05-17 14:12:28" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\TCData.br&quot; -t TextModule" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\role.br">
@@ -60,8 +60,10 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\FWRules.br&quot; -zip -B B4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cosberg.ox" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\cpu.per" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cosberg.ox" LastWriteTime="2024-05-18 08:58:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\cpu.per" LastWriteTime="2024-05-17 09:34:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Cosberg.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\X20CP1584\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;Cosberg&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
@@ -69,65 +71,77 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cosberg.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\a.out" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\a.out" LastWriteTime="2024-05-18 08:58:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Cosberg.ox&quot; -T SG4 -r Cyclic4 -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cyclic.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\init.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\exit.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\gestione_stazione.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\disattiva_stazione.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\_bur_pvdef.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Cyclic.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Init.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Exit.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\GESTIONE_STAZIONE.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\DISATTIVA_STAZIONE.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cyclic.st.o" LastWriteTime="2024-05-18 08:58:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\init.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\exit.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\gestione_stazione.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\_bur_pvdef.st.o" LastWriteTime="2024-05-18 08:58:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Cyclic.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Init.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Exit.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\GESTIONE_STAZIONE.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cyclic.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\cyclic.st" LastWriteTime="2024-05-17 13:29:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\cyclic.st" LastWriteTime="2024-05-18 08:57:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Cyclic.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Cyclic.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\init.st.o">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\init.st" LastWriteTime="2024-05-17 09:34:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Init.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Init.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\exit.st.o">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\exit.st" LastWriteTime="2024-05-17 09:34:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Exit.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\Exit.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\gestione_stazione.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\gestione_stazione.st" LastWriteTime="2024-05-17 12:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\gestione_stazione.st" LastWriteTime="2024-05-17 13:44:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Cosberg\GESTIONE_STAZIONE.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\GESTIONE_STAZIONE.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\_bur_pvdef.st.o">
-    <Prerequisite ID="c:\program files\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cyclic.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\init.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\exit.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\gestione_stazione.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\disattiva_stazione.st.o" LastWriteTime="0001-01-01 00:00:00" />
-    <CommandLine Parameter="&quot;C:\Program Files\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\_bur_pvdef.st.o&quot; -S &quot;Cyclic.st&quot; &quot;Init.st&quot; &quot;Exit.st&quot; &quot;GESTIONE_STAZIONE.st&quot; &quot;DISATTIVA_STAZIONE.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <Prerequisite ID="c:\program files\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2022-05-25 04:28:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\cyclic.st.o" LastWriteTime="2024-05-18 08:58:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\init.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\exit.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg\gestione_stazione.st.o" LastWriteTime="2024-05-17 14:12:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\variables.var" LastWriteTime="2024-05-17 13:50:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\cosberg\localfunctions.fun" LastWriteTime="2024-05-17 14:01:04" />
+    <CommandLine Parameter="&quot;C:\Program Files\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\Cosberg\_bur_pvdef.st.o&quot; -S &quot;Cyclic.st&quot; &quot;Init.st&quot; &quot;Exit.st&quot; &quot;GESTIONE_STAZIONE.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Cosberg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Cosberg\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP1584\#cpu_tp.mak&quot; -k" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp1584\transfer.lst">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwac.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\sysconf.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\asfw.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwd.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\arconfig.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\udbdef.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\iomap.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\role.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\user.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\fwrules.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg.br" LastWriteTime="0001-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\cpu.sw" LastWriteTime="0001-01-01 00:00:00" />
-    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\ST.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\Program Files\AS412&quot; -S &quot;X20CP1584&quot; -all -A &quot;X20CP1584&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\Cpu.sw&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwac.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\sysconf.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\asfw.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\ashwd.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\arconfig.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\udbdef.br" LastWriteTime="2022-05-25 04:28:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\iomap.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\tcdata.br" LastWriteTime="2024-05-17 14:12:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\role.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\user.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\fwrules.br" LastWriteTime="2024-05-17 14:12:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1584\cosberg.br" LastWriteTime="2024-05-18 08:58:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp1584\cpu.sw" LastWriteTime="2024-05-17 09:35:08" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\ST.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\Program Files\AS412&quot; -S &quot;X20CP1584&quot; -A &quot;X20CP1584&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP1584\Cpu.sw&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

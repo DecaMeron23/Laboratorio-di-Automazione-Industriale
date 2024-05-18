@@ -124,7 +124,7 @@
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Cyclic.st"
     LogicalPath="Cosberg.Cyclic.st"
     Type="File"
-    LastWriteTime="133604261998305467"
+    LastWriteTime="133604962648911819"
     Private="false" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Init.st"
@@ -148,19 +148,19 @@
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\Variables.var"
     LogicalPath="Cosberg.Variables.var"
     Type="File"
-    LastWriteTime="133604261285036891"
+    LastWriteTime="133604274557717722"
     Private="true" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\LocalFunctions.fun"
     LogicalPath="Cosberg.LocalFunctions.fun"
     Type="File"
-    LastWriteTime="133604215299742633"
+    LastWriteTime="133604280653205337"
     Private="true" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Logical\Cosberg\GESTIONE_STAZIONE.st"
     LogicalPath="Cosberg.GESTIONE_STAZIONE.st"
     Type="File"
-    LastWriteTime="133604208019237322"
+    LastWriteTime="133604270673236774"
     Private="false" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Config.pkg"
@@ -171,7 +171,7 @@
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133604257465573697"
+    LastWriteTime="133604942325222720"
     Private="false" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\Hardware.hwl"
@@ -183,7 +183,7 @@
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Cpu.pkg"
     LogicalPath="Config1.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133604120704363736" />
+    LastWriteTime="133604287675024921" />
   <Object
     Path="C:\Users\emili\OneDrive - unibg.it\UNI\Anno III\Automazione Industriale\GitHub\Laboratorio-di-Automazione-Industriale\ST\Physical\Config1\X20CP1584\Cpu.sw"
     LogicalPath="Config1.X20CP1584.Cpu.sw"

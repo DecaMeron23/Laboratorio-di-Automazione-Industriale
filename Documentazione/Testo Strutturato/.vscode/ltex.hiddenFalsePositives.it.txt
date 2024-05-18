@@ -1,0 +1,1 @@
+{"rule":"ER_01_001","sentence":"^\\QA evento, stazioni: 1 e 5; le quali, a seguito di evento, presenza pezzo (stazione 1) oppure controllo qualità eseguito (stazione 5), termineranno l'operazione.\\E$"}

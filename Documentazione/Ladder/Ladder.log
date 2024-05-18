@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  6 MAY 2024 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.19)  18 MAY 2024 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,40 +130,47 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks22
 \c@AM@survey=\count270
 \AM@templatesizebox=\box54
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count271
+\float@exts=\toks23
+\float@box=\box55
+\@float@everytoks=\toks24
+\@floatcapt=\box56
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count271
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box57
 ) (./Ladder.aux)
 \openout1 = `Ladder.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
+\scratchcounter=\count273
 \scratchdimen=\dimen170
-\scratchbox=\box56
-\nofMPsegments=\count273
-\nofMParguments=\count274
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count275
+\scratchbox=\box58
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count276
 \MPscratchDim=\dimen171
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks26
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -179,7 +186,14 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (./Ladder.toc
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+ (./Ladder.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -191,65 +205,65 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <schematico.png, id=1, 767.86874pt x 307.1475pt>
 File: schematico.png Graphic file (type png)
 <use schematico.png>
-Package pdftex.def Info: schematico.png  used on input line 19.
+Package pdftex.def Info: schematico.png  used on input line 23.
 (pdftex.def)             Requested size: 276.00105pt x 110.3996pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./schematico.png>]
-Overfull \hbox (19.53778pt too wide) in paragraph at lines 45--64
+Overfull \hbox (23.06554pt too wide) in paragraph at lines 49--69
  [] 
  []
 
 
-Overfull \hbox (27.57295pt too wide) in paragraph at lines 69--93
- [] 
- []
-
-
-Overfull \hbox (52.41673pt too wide) in paragraph at lines 97--123
+Overfull \hbox (27.57295pt too wide) in paragraph at lines 74--98
  [] 
  []
 
 [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Diagramma_Stati.png, id=17, 1054.94125pt x 452.69125pt>
-File: Diagramma_Stati.png Graphic file (type png)
-<use Diagramma_Stati.png>
-Package pdftex.def Info: Diagramma_Stati.png  used on input line 128.
-(pdftex.def)             Requested size: 276.00105pt x 118.43605pt.
+Overfull \hbox (41.58342pt too wide) in paragraph at lines 102--128
+ [] 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-[3 <./Diagramma_Stati.png>]
+[3]
+<Diagramma_Stati.png, id=23, 1054.94125pt x 452.69125pt>
+File: Diagramma_Stati.png Graphic file (type png)
+<use Diagramma_Stati.png>
+Package pdftex.def Info: Diagramma_Stati.png  used on input line 144.
+(pdftex.def)             Requested size: 345.0pt x 148.04161pt.
+
 
 pdfTeX warning: pdflatex.exe (file ./ProgrammaLadder.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ProgrammaLadder.pdf, id=23, 845.07724pt x 1194.98447pt>
+<ProgrammaLadder.pdf, id=24, 845.07724pt x 1194.98447pt>
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf>
-Package pdftex.def Info: ProgrammaLadder.pdf  used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf  used on input line 151.
 (pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./ProgrammaLadder.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf>
-Package pdftex.def Info: ProgrammaLadder.pdf  used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf  used on input line 151.
 (pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 
 
@@ -257,43 +271,43 @@ pdfTeX warning: pdflatex.exe (file ./ProgrammaLadder.pdf): PDF inclusion: found 
 
 
 pdfTeX warning: pdflatex.exe (file ./ProgrammaLadder.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ProgrammaLadder.pdf, id=26, page=1, 845.07724pt x 1194.98447pt>
+<ProgrammaLadder.pdf, id=27, page=1, 845.07724pt x 1194.98447pt>
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 1>
-Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 151.
 (pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 1>
-Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
-[4]
+[4 <./Diagramma_Stati.png>]
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 1>
-Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
-File: ProgrammaLadder.pdf Graphic file (type pdf)
-<use ProgrammaLadder.pdf, page 1>
-Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 1>
-Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 151.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: ProgrammaLadder.pdf Graphic file (type pdf)
+<use ProgrammaLadder.pdf, page 1>
+Package pdftex.def Info: ProgrammaLadder.pdf , page1 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
  [5 <./ProgrammaLadder.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./ProgrammaLadder.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ProgrammaLadder.pdf, id=42, page=2, 845.07724pt x 1194.98447pt>
+<ProgrammaLadder.pdf, id=44, page=2, 845.07724pt x 1194.98447pt>
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 2>
-Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 2>
-Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 File: ProgrammaLadder.pdf Graphic file (type pdf)
 <use ProgrammaLadder.pdf, page 2>
-Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 146.
+Package pdftex.def Info: ProgrammaLadder.pdf , page2 used on input line 151.
 (pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
 [6 <./ProgrammaLadder.pdf>] (./Ladder.aux)
  ***********
@@ -302,18 +316,18 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2966 strings out of 474267
- 48308 string characters out of 5751470
+ 3057 strings out of 474267
+ 49583 string characters out of 5751470
  1935558 words of memory out of 5000000
- 25163 multiletter control sequences out of 15000+600000
- 560268 words of font info for 43 fonts, out of 8000000 for 9000
+ 25242 multiletter control sequences out of 15000+600000
+ 563005 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,79p,881b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Ladder.pdf (6 pages, 212842 bytes).
+ 68i,17n,79p,885b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Ladder.pdf (6 pages, 234696 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

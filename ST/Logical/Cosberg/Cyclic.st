@@ -6,6 +6,7 @@ PROGRAM _CYCLIC
 			// attivazione del nastro trasportatore
 			IF NASTRO_ON THEN
 				STATO := STATO_ACCESO;
+				NASTRO_ON:= FALSE;
 			END_IF;
 			
 		STATO_ACCESO:
@@ -21,13 +22,14 @@ PROGRAM _CYCLIC
 				STATO := STATO_SPENTO;
 			ELSE  // se non c'è emergenza lavoriamo normalmente
 				// se è presente un pezzo in staz_1
-				IF STAZ_1 AND C_MAN_OUT < CILCI_MANUTENZIONE THEN
+				IF STAZ_1 AND C_MAN_IN < CILCI_MANUTENZIONE THEN
 					// chiamo la funzione per la stazione 1
 					GESTIONE_STAZ_1(TIPO := TIPO_TRIGGER , TEMPO :=  T#0s , TRIGGER :=  PRESENZA_PEZZO, AZIONE := ALIMENTAZIONE);
 					// se si verifica l'edge negativo disattivo la stazione e conto il pezzo
 					IF EDGENEG(ALIMENTAZIONE) THEN
+						PRESENZA_PEZZO := FALSE;
 						STAZ_1 := FALSE;
-						C_MAN_OUT := C_MAN_OUT + 1;
+						C_MAN_IN := C_MAN_IN + 1;
 					END_IF;
 				END_IF;
 				// se è presente un pezzo in staz_2
@@ -57,6 +59,7 @@ PROGRAM _CYCLIC
 					GESTIONE_STAZ_5(TIPO := TIPO_TRIGGER , TEMPO :=  T#0s , TRIGGER :=  QUALITY_CHECK_DONE, AZIONE := QUALITY_CHECK);
 					// se si verifica l'edge negativo disattivo la stazione e incremento il contatore finale
 					IF EDGENEG(QUALITY_CHECK) THEN
+						QUALITY_CHECK_DONE := FALSE;
 						STAZ_5 := FALSE;
 						C_MAN_OUT := C_MAN_OUT + 1;
 					END_IF;
@@ -73,7 +76,9 @@ PROGRAM _CYCLIC
 				C_MAN_IN := 0;
 				C_MAN_OUT := 0;
 				MAI := FALSE;
-				STATO := STATO_ACCESO;
+				MAIR := FALSE;
+				STATO := STATO_ACCESO;	
+				
 			END_IF;
 	END_CASE;
 END_PROGRAM
