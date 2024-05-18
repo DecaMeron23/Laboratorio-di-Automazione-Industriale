@@ -1,0 +1,19 @@
+VAR
+	inizio:BOOL:=FALSE;
+	_inizio:BOOL:=TRUE;
+	attesaBottiglia:BOOL:=FALSE;
+	_attesaBottiglia:BOOL:=FALSE;
+	conta:BOOL:=FALSE;
+	_conta:BOOL:=FALSE;
+	manutenzione:SFCStepType:=(0);
+	attesaSicurezza:SFCStepType:=(0);
+	vaASinistra:SFCStepType:=(0);
+	scarico:BOOL:=FALSE;
+	_scarico:BOOL:=FALSE;
+	vaADestra:SFCStepType:=(0);
+	zzRTR000040000:r_trig:=(0);
+	LM_action:SFCActionType:=(0);
+	MAI_action:SFCActionType:=(0);
+	RM_action:SFCActionType:=(0);
+	nonFaNulla_action:SFCActionType:=(0);
+END_VAR

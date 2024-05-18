@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:\projects\SFC\Logical\Program\Cyclic.sfc</InputFile>
+<OutputFile>C:\projects\SFC\Temp\Objects\Config1\X20CP1584\Program\Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="inizio" EXIT="3"/>
+<TRANSITION00005 CYCLIC="4"/>
+<STEP00006 NAME="conta" ENTRY="5"/>
+<STEP00011 NAME="manutenzione" ENTRY="6"/>
+<STEP00016 NAME="attesaSicurezza" ENTRY="7"/>
+</MainSFC>
+</Monitor>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <Versatile ID="C:\projects\SFC\Logical\Program\Cyclic.sfc">
+    <Property Name="cyclic actions" Value="" />
+    <Property Name="transitions" Value="4 " />
+    <Property Name="exit actions" Value="" />
+    <Property Name="xpos" Value="0" />
+    <Property Name="ypos" Value="0" />
+    <Property Name="zoom" Value="100" />
+    <Property Name="entry actions" Value="5 " />
+  </Versatile>
+  <TextEdit ID="C:\projects\SFC\Temp\SFCSubEditor\Program\Cyclic\Action conta - Entry.st" CaretLine="20" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+</State>

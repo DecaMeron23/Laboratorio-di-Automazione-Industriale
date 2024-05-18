@@ -1,0 +1,21 @@
+Sat May 18 13:42:47 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Sat May 18 13:42:47 2024
+No ARsim registration found!
+
+Sat May 18 13:42:47 2024
+InstanceName: 0000033023d0d933
+
+Sat May 18 13:42:47 2024
+WorkingDirectory: C:\projects\ExeBonusSFC\Temp\Simulation\Config1\X20CP1584\
+
+Sat May 18 13:42:47 2024
+COMMAND_COLDSTART
+
+Sat May 18 13:42:49 2024
+Version: B4.93
+
+Sat May 18 13:43:33 2024
+COMMAND_TERMINATE
+
