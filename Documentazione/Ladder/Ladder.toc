@@ -1,3 +1,5 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
 \contentsline {section}{\numberline {1}Introduzione}{1}{}%
 \contentsline {section}{\numberline {2}Definizione Variabili}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Input e Output del sistema}{2}{}%
