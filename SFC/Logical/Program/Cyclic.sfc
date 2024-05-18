@@ -1,0 +1,151 @@
+PROGRAM _CYCLIC
+<?AutomationStudio FileVersion="4.9"?>
+INITIAL_STEP inizio:
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+
+(* Inizzializzazione delle variabili *)
+
+x:= 0;
+botPerMan:=0;
+END_ACTION
+TRANSITION FROM inizio TO attesaBottiglia:=
+RS
+END_TRANSITION
+(* @SFCNOJUMP := 'attesaBottiglia' *)
+STEP attesaBottiglia:
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION fronte positivo fotocellula FROM attesaBottiglia TO conta:=
+(* @LANGUAGE := 'ld' *)
+
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<!-- Automation Studio Generated XML Section -->
+<networks maxcolumn="0">
+	<network label="" comment="" row="1" column="0" commented="0">
+		<row>
+			<contact type="positive transition" name="CELL"/>
+			<line/>
+			<line/>
+			<coil type="open" name="Transition"/>
+		</row>
+	</network>
+</networks>
+
+END_TRANSITION
+(* @SFCNOJUMP := 'conta' *)
+STEP conta:
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+
+(* TODO: Insert Program *)
+
+x:=x+1;
+CELL := FALSE;
+botPerMan:=botPerMan+1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+END_ACTION
+TRANSITION FROM conta TO attesaSicurezza:=
+x>=10 AND botPerMan<25
+END_TRANSITION
+(* @SFCNOJUMP := 'attesaSicurezza' *)
+TRANSITION FROM conta TO attesaBottiglia:=
+x<10 AND botPerMan<25
+END_TRANSITION
+(* @SFCISJUMP := 'attesaBottiglia' *)
+TRANSITION FROM conta TO manutenzione:=
+botPerMan>=25
+END_TRANSITION
+(* @SFCNOJUMP := 'manutenzione' *)
+IEC_STEP manutenzione:
+MAI(N);
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+
+(* TODO: Insert Program *)
+
+botPerMan:=0;
+END_ACTION
+TRANSITION FROM manutenzione TO attesaBottiglia:=
+MAIR AND x<10
+END_TRANSITION
+(* @SFCISJUMP := 'attesaBottiglia' *)
+TRANSITION FROM manutenzione TO attesaSicurezza:=
+MAIR AND x>=10
+END_TRANSITION
+(* @SFCISJUMP := 'attesaSicurezza' *)
+IEC_STEP attesaSicurezza:
+nonFaNulla(N);
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+
+(* TODO: Insert Program *)
+
+
+x:=0;
+END_ACTION
+TRANSITION FROM attesaSicurezza TO vaASinistra:=
+attesaSicurezza.t >= T#5s
+END_TRANSITION
+(* @SFCNOJUMP := 'vaASinistra' *)
+IEC_STEP vaASinistra:
+LM(N);
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM vaASinistra TO scarico:=
+LS
+END_TRANSITION
+(* @SFCNOJUMP := 'scarico' *)
+STEP scarico:
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM scarico TO vaADestra:=
+LS AND ES AND start
+END_TRANSITION
+(* @SFCNOJUMP := 'vaADestra' *)
+IEC_STEP vaADestra:
+RM(N);
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM vaADestra TO attesaBottiglia:=
+RS
+END_TRANSITION
+(* @SFCISJUMP := 'attesaBottiglia' *)
+END_PROGRAM

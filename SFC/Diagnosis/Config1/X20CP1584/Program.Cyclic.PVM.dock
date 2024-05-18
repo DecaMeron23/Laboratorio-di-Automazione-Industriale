@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=110 Type=0 Scope=0 Force=0 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    CELL                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      ES                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      LM                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                                      LS                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                     MAI                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                    MAIR                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                                      RM                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                      RS                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               botPerMan                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                                   start                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                       x                                    USINT    0 "                                                               0"    0    5    1   10    1    0         

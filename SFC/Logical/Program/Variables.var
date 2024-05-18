@@ -1,0 +1,14 @@
+VAR
+	nonFaNulla : BOOL;
+	botPerMan : USINT;
+	x : USINT;
+	RM : BOOL;
+	LM : BOOL;
+	MAI : BOOL;
+	CELL : BOOL;
+	LS : BOOL;
+	RS : BOOL;
+	ES : BOOL;
+	start : BOOL;
+	MAIR : BOOL;
+END_VAR
